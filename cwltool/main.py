@@ -1037,6 +1037,7 @@ def main(
 
         configure_logging(
             stderr_handler,
+            args.no_warnings,
             args.quiet,
             runtimeContext.debug,
             args.enable_color,
